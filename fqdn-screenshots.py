@@ -16,7 +16,6 @@ with open(fList, "r") as ins:
       hostName = line.strip()
       hostName = hostName[:-1]   # Remove comma
       
-      print ("HOSTNAME = [{}]" .format(hostName))
       try:
          ipAddr = socket.gethostbyname_ex(hostName)
       except socket.error:
