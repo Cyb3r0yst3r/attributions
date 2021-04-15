@@ -4,6 +4,7 @@ import os
 
 # resolve a subdomains .csv file from www.whoisxmlapi.com containing a list of hostnames and take a screen shot
 # Takes 2 arguments (1) input_subdomains_file, and (2) image_directory (for example: /tmp/fqdnimages/)
+# ******* Be sure to replace <YOUR_API_KEY> with your own API_KEY ********
 
 fList = sys.argv[1]
 oDir = sys.argv[2]
